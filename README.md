@@ -18,9 +18,11 @@ Given a sample $X = (\{x_1, x_2, ..., x_n\})$, we:
 
     2.1   Resample $n$ observations from $X$ **with replacement** to create a bootstrap sample $Y_b$.
 
-    2.2   Compute the statistic of interest (e.g., the mean of $Y_b$) for this resample, denoted as $u_b$.
+    2.2   Compute the parameter of interest (e.g., the mean of $Y_b$) for this resample, denoted as $u_b$.
     
 4.  Obtain Bootstrap samples $u = (\{u_1, ..., u_B\})$
+
+5.  Obtain 95% confidence intervals of the parameter of interest as 2.5% and 97.5% quantiles from $u$. 
 
 ## 📊 Illustration
 

@@ -3,9 +3,10 @@
 
 This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a parameter of interest. 
 
-## 📖 What is Nonparametric Bootstrap?
+## 📖 Introduction
 
 The nonparametric bootstrap is a statistical resampling technique used to estimate the precision of sample statistics (like mean, median, or standard error) by repeatedly sampling with replacement from the original data. 
+
 
 ## :gear: Method
 
@@ -21,7 +22,8 @@ Given a sample $X = (\{x_1, x_2, ..., x_n\})$, we:
     
 4.  Obtain Bootstrap samples $u = (\{u_1, ..., u_B\})$.
 
-5.  Obtain 95% confidence intervals of the parameter of interest as 2.5% and 97.5% quantiles from $u$. 
+5.  Obtain 95% confidence intervals of the parameter of interest as 2.5% and 97.5% quantiles from $u$.
+   
 
 ## 📊 Illustration
 
@@ -29,6 +31,7 @@ The code generates a histogram showing the distribution of the bootstrap means.
 
 * **Blue Line:** The observed mean of our original sample.
 * **Red Dashed Lines:** The 95% Confidence Interval boundaries.
+
 
 ## 🚀 How to Run
 

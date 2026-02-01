@@ -1,21 +1,21 @@
 # ST0_1_Demo
 
-# Bootstrap Confidence Interval Estimator
+# Bootstrap Confidence Interval for a Point Estimator
 
-This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a population mean.
+This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a Point Estimator.
 
 ## 📖 What is Bootstrapping?
 
-Bootstrapping is a resampling technique used to estimate statistics on a population by sampling a dataset with replacement. It allows us to calculate measures of accuracy (like standard errors or confidence intervals) to sample estimates without making strong assumptions about the distribution of the underlying population (e.g., assuming normality).
+Bootstrapping is a resampling technique used to make statistical inference by sampling data with replacement. It allows us to calculate measures of accuracy (like standard errors or confidence intervals) to estimators.
 
-### The Math
+### Method
 
-Given a sample $X = \{x_1, x_2, ..., x_n\}$, we:
+Given a sample $X = (\{x_1, x_2, ..., x_n\})$, we:
 
 1.  Resample $n$ observations from $X$ **with replacement** to create a bootstrap sample $X^*$.
-2.  Compute the statistic of interest (e.g., the mean $\bar{x}^*$) for this resample.
+2.  Compute the statistic of interest (e.g., the mean $\widebar{X}^*$) for this resample.
 3.  Repeat this process $B$ times (typically $B=1000$ or $10,000$).
-4.  Construct the confidence interval from the resulting distribution of $\bar{x}^*$.
+4.  Construct the confidence interval from the resulting distribution of $\widebar{X}^*$.
 
 For a $95%$ confidence interval using the percentile method, we find values $\theta_1$ and $\theta_2$ such that:
 

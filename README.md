@@ -1,7 +1,7 @@
 
-# Nonparametric Bootstrap Confidence Interval for a Point Estimator
+# Nonparametric Bootstrap Confidence Interval for a Parameter of Interest
 
-This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a Point Estimator.
+This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a parameter of interest. 
 
 ## 📖 What is Nonparametric Bootstrap?
 

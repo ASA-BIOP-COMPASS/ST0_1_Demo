@@ -19,7 +19,7 @@ Given a sample $X = \{x_1, x_2, ..., x_n\}$, we:
 
 For a $95%$ confidence interval using the percentile method, we find values $\theta_1$ and $\theta_2$ such that:
 
-$P(\theta_{2.5\%} \leq \bar{X} \leq \theta_{97.5\%}) = 0.95$
+$P(\theta_1 \leq \bar{X} \leq \theta_2) = 0.95$
 
 ## 📊 Illustration
 

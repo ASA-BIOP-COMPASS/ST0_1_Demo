@@ -7,7 +7,7 @@ This repository contains an R implementation of the **Non-parametric Bootstrap**
 
 The nonparametric bootstrap is a statistical resampling technique used to estimate the precision of sample statistics (like mean, median, or standard error) by repeatedly sampling with replacement from the original data. 
 
-## Method
+## :gear: Method
 
 Given a sample $X = (\{x_1, x_2, ..., x_n\})$, we:
 

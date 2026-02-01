@@ -12,6 +12,12 @@ Bootstrapping is a resampling technique used to make statistical inference by sa
 
 Given a sample $X = (\{x_1, x_2, ..., x_n\})$, we:
 
+1.  Set $B$ (e.g., $B=1000$) as the number of Bootstrap iterations.
+2.  Within a Bootstrap iteration $b$ ($b = 1, ..., B$),
+    2.1   Resample $n$ observations from $X$ **with replacement** to create a bootstrap sample $X^*_b$.
+    2.2   Compute the statistic of interest (e.g., the mean of $X^*_b$) for this resample, denoted as $\mu^*_b$.
+3.  Obtain Bootstrap samples $\mu^* = (\{\mu^*_1, ..., \mu^*_B\})$
+
 1.  Resample $n$ observations from $X$ **with replacement** to create a bootstrap sample $X^*$.
 2.  Compute the statistic of interest (e.g., the mean $\widebar{X}^*$) for this resample.
 3.  Repeat this process $B$ times (typically $B=1000$ or $10,000$).

@@ -17,9 +17,9 @@ Given a sample $X = \{x_1, x_2, ..., x_n\}$, we:
 3.  Repeat this process $B$ times (typically $B=1000$ or $10,000$).
 4.  Construct the confidence interval from the resulting distribution of $\bar{x}^*$.
 
-For a confidence interval using the percentile method, we find values $\theta_{2.5\%}$ and $\theta_{97.5\%}$ such that:
+For a $95%$ confidence interval using the percentile method, we find values $\theta_{2.5\%}$ and $\theta_{97.5\%}$ such that:
 
-$$P(\theta_{2.5\%} \leq \bar{X} \leq \theta_{97.5\%}) = 0.95$$
+$P(\theta_{2.5\%} \leq \bar{X} \leq \theta_{97.5\%}) = 0.95$
 
 ## 📊 Illustration
 

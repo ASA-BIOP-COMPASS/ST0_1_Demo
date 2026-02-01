@@ -1,11 +1,11 @@
 
-# Bootstrap Confidence Interval for a Point Estimator
+# Nonparametric Bootstrap Confidence Interval for a Point Estimator
 
 This repository contains an R implementation of the **Non-parametric Bootstrap** method to estimate the 95% Confidence Interval (CI) for a Point Estimator.
 
-## 📖 What is Bootstrapping?
+## 📖 What is Nonparametric Bootstrap?
 
-Bootstrapping is a resampling technique used to make statistical inference by sampling data with replacement. It allows us to calculate measures of accuracy (like standard errors or confidence intervals) to estimators.
+The nonparametric bootstrap is a statistical resampling technique used to estimate the precision of sample statistics (like mean, median, or standard error) by repeatedly sampling with replacement from the original data. 
 
 ## Method
 
